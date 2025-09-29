@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BackColor — Пескоструйная обработка и промышленная покраска</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating Action Button -->
+  <a href="tel:+74951234567" class="fab-phone" aria-label="Позвонить нам">
+    <i class="fas fa-phone"></i>
+  </a>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#home" class="logo">
+          <span class="logo-mark">BC</span>
+          <span class="logo-text">BackColor</span>
+        </a>
+
+        <nav class="nav" id="nav">
+          <a href="#home" class="nav-link">Главная</a>
+          <a href="#services" class="nav-link">Услуги</a>
+          <a href="#works" class="nav-link">Работы</a>
+          <a href="#about" class="nav-link">О нас</a>
+          <a href="#contact" class="nav-link">Контакты</a>
+        </nav>
+
+        <button class="burger" id="burger" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-title">Профессиональная пескоструйная обработка и покраска</h1>
+          <p class="hero-text">Восстановление и защита металлических поверхностей любой сложности. Гарантия качества и долговечности.</p>
+          
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Получить консультацию</a>
+            <a href="#works" class="btn btn-secondary">Наши работы</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">лет опыта</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">проектов</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">24/7</span>
+              <span class="stat-label">поддержка</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="floating-card">
+            <div class="card-image">
+              <div class="image-placeholder"></div>
+            </div>
+            <div class="card-content">
+              <h3>Восстановление промышленного оборудования</h3>
+              <p>Полный цикл работ: очистка, антикоррозийная обработка, покраска</p>
+              <a href="#works" class="card-link">Смотреть проект <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Наши услуги</h2>
+        <p class="section-subtitle">Комплексные решения для промышленных и коммерческих объектов</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-wind"></i>
+          </div>
+          <h3 class="service-title">Пескоструйная обработка</h3>
+          <p class="service-description">Полное удаление ржавчины, окалины и старых покрытий с любой поверхности</p>
+          <ul class="service-features">
+            <li>Очистка металлоконструкций</li>
+            <li>Подготовка под покраску</li>
+            <li>Удаление граффити</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-paint-roller"></i>
+          </div>
+          <h3 class="service-title">Промышленная покраска</h3>
+          <p class="service-description">Нанесение защитных и декоративных покрытий любой сложности</p>
+          <ul class="service-features">
+            <li>Порошковая покраска</li>
+            <li>Антикоррозийные покрытия</li>
+            <li>Фасадные работы</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 class="service-title">Антикоррозийная защита</h3>
+          <p class="service-description">Многослойная защита металла от агрессивных сред и атмосферных воздействий</p>
+          <ul class="service-features">
+            <li>Грунтовка и праймирование</li>
+            <li>Ингибиторы коррозии</li>
+            <li>Защита до 15 лет</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works Section -->
+  <section id="works" class="section works">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Наши работы</h2>
+        <p class="section-subtitle">Реализованные проекты с гарантией качества</p>
+      </div>
+
+      <div class="works-grid">
+        <div class="work-card" data-title="Восстановление ворот" data-description="Полный цикл работ по восстановлению металлических ворот: пескоструйная очистка, грунтовка, нанесение защитного покрытия.">
+          <div class="work-image">
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Восстановленные ворота">
+          </div>
+          <div class="work-content">
+            <h3 class="work-title">Восстановление ворот</h3>
+            <p class="work-description">Металлические ворота с полным восстановлением</p>
+            <span class="work-category">Промышленность</span>
+          </div>
+        </div>
+
+        <div class="work-card" data-title="Покраска металлоконструкций" data-description="Обработка и покраска несущих металлоконструкций производственного цеха с антикоррозийной защитой.">
+          <div class="work-image">
+            <img src="https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Металлоконструкции">
+          </div>
+          <div class="work-content">
+            <h3 class="work-title">Покраска металлоконструкций</h3>
+            <p class="work-description">Несущие конструкции производственного цеха</p>
+            <span class="work-category">Промышленность</span>
+          </div>
+        </div>
+
+        <div class="work-card" data-title="Реставрация фасада" data-description="Очистка и покраска фасада коммерческого здания с использованием современных материалов и технологий.">
+          <div class="work-image">
+            <img src="https://images.unsplash.com/photo-1542317854-14b9d9d6d2d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Фасад здания">
+          </div>
+          <div class="work-content">
+            <h3 class="work-title">Реставрация фасада</h3>
+            <p class="work-description">Коммерческое здание после реставрации</p>
+            <span class="work-category">Коммерция</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <div class="section-header">
+            <h2 class="section-title">О компании SandPro</h2>
+            <p class="section-subtitle">Профессионалы в области обработки и защиты поверхностей</p>
+          </div>
+
+          <div class="about-text">
+            <p>Мы специализируемся на пескоструйной обработке, промышленной покраске и антикоррозийной защите металлических поверхностей любого уровня сложности.</p>
+            
+            <div class="features-list">
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>Современное оборудование и материалы</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>Контроль качества на всех этапах</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>Выездная работа и гибкий график</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>Гарантия на все виды работ</span>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn-outline">Запросить расчет</a>
+          </div>
+        </div>
+
+        <div class="about-image">
+          <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Наша команда за работой">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-form-container">
+          <div class="section-header">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <p class="section-subtitle">Оставьте заявку и мы свяжемся с вами в течение часа</p>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Ваше имя</label>
+              </div>
+              <div class="form-group">
+                <input type="tel" id="phone" name="phone" required>
+                <label for="phone">Телефон</label>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" name="email">
+              <label for="email">Email (необязательно)</label>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <label for="message">Опишите вашу задачу</label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
+            
+            <div id="formMessage" class="form-message"></div>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="info-block">
+            <h3>Контактная информация</h3>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>г. Батайск, ул. светлая, 15</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <a href="tel:+74951234567">+7 (999) 999-99-99</a>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:info@sandpro.ru">info@sandpro.ru</a>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <h3>Режим работы</h3>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <span>Пн-Пт: 9:00 - 18:00</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <span>Сб: 10:00 - 16:00 (по записи)</span>
+            </div>
+          </div>
+
+          <div class="info-note">
+            <p><strong>Срочный выезд:</strong> возможен выезд специалиста в день обращения для оценки объема работ.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-mark">SP</span>
+            <span class="logo-text">SandPro</span>
+          </a>
+          <p>Профессиональная пескоструйная обработка и покраска с 2013 года</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-nav">
+            <h4>Услуги</h4>
+            <a href="#services">Пескоструйная обработка</a>
+            <a href="#services">Промышленная покраска</a>
+            <a href="#services">Антикоррозийная защита</a>
+          </div>
+
+          <div class="footer-nav">
+            <h4>Компания</h4>
+            <a href="#about">О нас</a>
+            <a href="#works">Наши работы</a>
+            <a href="#contact">Контакты</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Backcolor. Все права защищены.</p>
+         <h3>Разработка</h3>
+          <p>Сайт сделан <a href="http://sampetro-solutions.ru/">SamPetro-Solutions</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Закрыть">
+        <i class="fas fa-times"></i>
+      </button>
+      <h3 class="modal-title" id="modalTitle"></h3>
+      <p class="modal-description" id="modalDescription"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
